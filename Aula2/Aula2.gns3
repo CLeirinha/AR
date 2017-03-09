@@ -51,28 +51,6 @@
                 }
             },
             {
-                "description": "Link from R1 port FastEthernet1/0 to R2 port FastEthernet1/0",
-                "destination_node_id": 2,
-                "destination_port_id": 5,
-                "destination_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f1/0",
-                    "x": -6.995738333676378,
-                    "y": 21.416120608267505
-                },
-                "id": 3,
-                "source_node_id": 1,
-                "source_port_id": 1,
-                "source_port_label": {
-                    "color": "#ff000000",
-                    "font": "TypeWriter,10,-1,5,75,0,0,0,0,0",
-                    "text": "f1/0",
-                    "x": 72.99573833367637,
-                    "y": 22.583879391732495
-                }
-            },
-            {
                 "description": "Link from R1 port FastEthernet0/0 to R3 port FastEthernet0/0",
                 "destination_node_id": 3,
                 "destination_port_id": 11,
@@ -150,11 +128,8 @@
                     },
                     {
                         "adapter_number": 1,
-                        "description": "connected to R2 on port FastEthernet1/0",
                         "id": 1,
-                        "link_id": 3,
                         "name": "FastEthernet1/0",
-                        "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
@@ -235,11 +210,8 @@
                     },
                     {
                         "adapter_number": 1,
-                        "description": "connected to R1 on port FastEthernet1/0",
                         "id": 5,
-                        "link_id": 3,
                         "name": "FastEthernet1/0",
-                        "nio": "NIO_UDP",
                         "port_number": 0
                     },
                     {
@@ -289,7 +261,7 @@
                 "type": "C7200",
                 "vm_id": "2b38a2fc-b07f-4aec-8fda-069337196918",
                 "x": 60.0,
-                "y": -99.0
+                "y": -100.0
             },
             {
                 "description": "Router c7200",
@@ -373,7 +345,7 @@
                 "server_id": 1,
                 "type": "C7200",
                 "vm_id": "c0313691-0a2d-44ec-94ba-5298a56c1a29",
-                "x": -74.0,
+                "x": -76.0,
                 "y": 68.0
             },
             {
